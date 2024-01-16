@@ -1,6 +1,6 @@
 # tonymccallie nvim config
 To use this config:
-1. Install nvim, zsh, and oh-my-zsh
+1. Install nvim, zsh, oh-my-zsh, and a nerd font
 2. Make zsh default console
 3. alias vim to nvim in .zshrc
 4. `mkdir ~/.config`
