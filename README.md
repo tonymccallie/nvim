@@ -9,6 +9,7 @@ To use this config:
 7. run `nvim`
 
 ## Shortcuts
+```
 tmux:
   - <C-s> H/V to split pane
   - <C-hjkl> to swap panes
@@ -29,3 +30,4 @@ vim
   - <C-n> file tree
   - :Lazy update plugins
   - :checkhealth
+```
