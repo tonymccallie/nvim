@@ -13,5 +13,10 @@ vim.keymap.set('n', '<c-t>', ':tab new<CR>')
 vim.keymap.set('n', '<c-.>', ':tabn<CR>')
 vim.keymap.set('n', '<c-,>', ':tabp<CR>')
 
+
+vim.keymap.set('v', '<', '<gv')
+vim.keymap.set('v', '>', '>gv')
+
+
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true

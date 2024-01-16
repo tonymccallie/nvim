@@ -30,4 +30,5 @@ vim
   - <C-n> file tree
   - :Lazy update plugins
   - :checkhealth
+  - visual mode shift <> indent in or out
 ```
