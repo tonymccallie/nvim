@@ -11,24 +11,36 @@ To use this config:
 ## Shortcuts
 ```
 tmux:
-  - <C-s> H/V to split pane
-  - <C-hjkl> to swap panes
-  - <C-s> d to detach
-  - <C-s> <opt-arrow> to resize pane
-vim
-  - = indent
-  - <C-w> pane control
-  - <C-w> s/v split
-  - <C-w> +/- height
-  - <C-w> <> width
-  - <C-w> = equalize
-  - <C-t> new tab
-  - <C-,> prev tab
-  - <C-.> next tab
-  - <leader>f format file
-  - <C-p> file open
-  - <C-n> file tree
-  - :Lazy update plugins
-  - :checkhealth
-  - visual mode shift <> indent in or out
+    - <C-s> H/V to split pane
+    - <C-hjkl> to swap panes
+    - <C-s> d to detach
+    - <C-s> <opt-arrow> to resize pane
+vim:
+    - Movement
+        - gg beginning of file
+        - G end of file
+        - <C-b> page up
+        - <C-f> page down
+    - yy yank (copy) line
+    - p paste after cursor
+    - P paste before
+    - cc replace entire line
+    - C replace to end of line
+    - o new line below
+    - O new line above
+    - = indent
+    - <C-w> pane control
+    - <C-w> s/v split
+    - <C-w> +/- height
+    - <C-w> <> width
+    - <C-w> = equalize
+    - <C-t> new tab
+    - <C-,> prev tab
+    - <C-.> next tab
+    - <leader>f format file
+    - <C-p> file open
+    - <C-n> file tree
+    - :Lazy update plugins
+    - :checkhealth
+    - visual mode shift <> indent in or out
 ```
