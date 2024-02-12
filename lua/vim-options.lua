@@ -18,6 +18,7 @@ vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 vim.keymap.set('n', '<c-t>', ':tab new<CR>')
 vim.keymap.set('n', '<c-.>', ':tabn<CR>')
 vim.keymap.set('n', '<c-,>', ':tabp<CR>')
+vim.keymap.set('n', '<Leader>t', '<c-w>:term ++close<CR>')
 
 -- Indentation
 vim.keymap.set('v', '<', '<gv')
