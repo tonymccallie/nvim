@@ -1,3 +1,4 @@
+-- style the nvim powerline
 return {
   "nvim-lualine/lualine.nvim",
 	  config = function()

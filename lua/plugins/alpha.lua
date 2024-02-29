@@ -1,3 +1,4 @@
+-- pretty intro screen
 return {
   "goolord/alpha-nvim",
   dependencies = {

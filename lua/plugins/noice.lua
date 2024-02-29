@@ -1,3 +1,4 @@
+-- Move commands to middle of the screen
 return {
   "folke/noice.nvim",
   event = "VeryLazy",

@@ -14,7 +14,11 @@ tmux:
     - <C-s> H/V to split pane
     - <C-hjkl> to swap panes
     - <C-s> d to detach
-    - <C-s> <opt-arrow> to resize pane
+    - <C-s> <opt/alt-arrow> to resize pane
+    - <C-s> [ enter scroll mode, q to quit
+    - <C-s> c create new window\tab
+    - <C-s> p previous window
+    - <C-s> n next window
 vim:
     - Movement
         - gg beginning of file

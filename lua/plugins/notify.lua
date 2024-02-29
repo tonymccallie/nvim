@@ -1,3 +1,4 @@
+-- prettier notifications
 return {
   "rcarriga/nvim-notify",
   config = function()

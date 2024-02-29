@@ -13,3 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim-options")
 require("lazy").setup("plugins")
+
+--vim.api.nvim_create_autocmd("VimEnter", {
+ -- command = "Neotree toggle"
+--})

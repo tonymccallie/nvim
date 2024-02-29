@@ -27,3 +27,4 @@ vim.keymap.set('v', '>', '>gv')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
+vim.o.undofile = true

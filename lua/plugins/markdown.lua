@@ -1,3 +1,4 @@
+-- Open browser preview of Markdown
 return {
   "iamcco/markdown-preview.nvim",
   cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
